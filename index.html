@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <h2>REVVD</h2>
+        </div>
+        <div class="input-container">
+            <div class="Search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+
+            <div>
+                <input type="text" placeholder="Search">
+            </div>
+        </div>
+        <div class="warren">
+            <i class="fa-solid fa-bell"></i>
+            <p>Warren Warren</p>
+            <i class="fa-solid fa-angle-down"></i>
+        </div>
+    </div>
+    <section>
+        <div class="buttons">
+            <div class="newLife">
+                <button class="newsfeed activeButton" id="newsfeed" onclick="toggleStyle(this)" >Newsfeed</button>
+                <button class="lifestory" id="lifestory" onclick="toggleStyle(this)" >Lifestory</button>
+            </div>
+
+            <div class="create" >
+                <button class="create" id="create">
+                    <i class="fa-solid fa-plus"></i>
+                    create
+                </button>
+            </div>
+
+        </div>
+        <div class="newsfeed" id="newsfeedContent">
+            <div class="lists">
+                <div>
+                    <ul>
+                        <li>All</li>
+                        <li>Newest</li>
+                        <li>Popular</li>
+                        <li>Trend</li>
+                        <li>Event</li>
+                        <li>Race</li>
+                        <li>More</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="item1">
+                <div>
+                    <div class="zoom-in-effect">
+                        <img src="./images/evgeny-tchebotarev-aiwuLjLPFnU-unsplash.jpg" alt="">
+                    </div>
+
+                    <div class="para">
+
+                        <div>
+                            <h2>Esport WRC Final</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt commodi totam
+                                perferendis
+                                adipisci id dolor!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="grid-container">
+                <!-- First row -->
+                <div class=" items grid-item1">
+                    <p>Fighting In Midfield 'A Lot Tougher' Than Leading A Race, Says Ocon After Maidan Grant Prix Win
+                    </p>
+                </div>
+
+                <!-- Second row with two items -->
+                <div class=" items grid-item2">
+                    <p>First point finish for two years was 'like a victory for us' says Williums boss Capito</p>
+                </div>
+
+                <div class=" items grid-item3">
+                    <!-- Content for the second row, second column -->
+                    <p>First point finish for two years was 'like a victory for us' says Williums boss Capito</p>
+                </div>
+            </div>
+
+
+
+            <div class="item2">
+                <div class="box">
+                    <div class="box1">
+                        <div class="image">
+                            <img src="./images/joseph-gonzalez-iFgRcqHznqg-unsplash.jpg" alt="">
+                        </div>
+                        <div class="waddenRace">
+                            <div>
+                                <h2>Wadden Wadden</h2>
+                            </div>
+                            <div class="RaceEvent">
+                                <div>Race</div>
+                                <div>Event</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box2">
+
+                        <div class="savebox2">
+                            <button> <i class="fa-solid fa-plus"></i> Save</button>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="box2-image">
+                    <img src="./images/joshua-koblin-eqW1MPinEV4-unsplash.jpg" alt="">
+                </div>
+
+                <div class="para1">
+                    <h4>Ocons' Joy, Leclerc's furry and frustrated drivers aplenty in the
+                        best team radio from Hungary</h4>
+                    <p>Ocon's joy and jubilation were clear as day as he picked up a maiden F1
+                        victory, while the emotions at the start the emotio... more</p>
+                </div>
+                <div>
+                    <div class="likes">
+                        <div class="like-button1"  id="likeButton"  >
+                            <i id="toggleIcon" class="fas fa-heart  regular-icon"></i>
+                        </div>
+                        <div id="likeCount" class="like-count">0</div>
+                    
+                        <p class="views"> 1.5 m views</p>
+                        <p><i class="fa-solid fa-circle"></i> 1 day ago</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="item2">
+                <div class="box">
+                    <div class="box1">
+                        <div class="image">
+                            <img src="./images/joseph-gonzalez-iFgRcqHznqg-unsplash.jpg" alt="">
+                        </div>
+                        <div class="waddenRace">
+                            <div>
+                                <h2>Wadden Wadden</h2>
+                            </div>
+                            <div class="RaceEvent">
+                                <div>Race</div>
+                                <div>Event</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box2">
+
+                        <div class="savebox2">
+                            <button> <i class="fa-solid fa-plus"></i> Save</button>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="box2-image">
+                    <img src="./images/joshua-koblin-eqW1MPinEV4-unsplash.jpg" alt="">
+                </div>
+
+                <div class="para1">
+                    <h4>Ocons' Joy, Leclerc's furry and frustrated drivers aplenty in the
+                        best team radio from Hungary</h4>
+                    <p>Ocon's joy and jubilation were clear as day as he picked up a maiden F1
+                        victory, while the emotions at the start the emotio... more</p>
+                </div>
+                <div>
+                    <div class="likes">
+                        <div class="like-button2"  id="likeButton"  >
+                            <i id="toggleIcon" class="fas fa-heart"></i>
+                        </div>
+                        <div id="likeCount" class="like-count">0</div>
+                        <p class="views"> 1.5 m views</p>
+                        <p><i class="fa-solid fa-circle"></i> 1 day ago</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="item2">
+                <div class="box">
+                    <div class="box1">
+                        <div class="image">
+                            <img src="./images/matheus-ferrero-W7b3eDUb_2I-unsplash.jpg" alt="">
+                        </div>
+                        <div class="waddenRace">
+                            <div>
+                                <h2>Wadden Wadden</h2>
+                            </div>
+                            <div class="RaceEvent">
+                                <div>Race</div>
+                                <div>Event</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box2">
+
+                        <div class="savebox2">
+                            <button> <i class="fa-solid fa-plus"></i> Save</button>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="box2-image">
+                    <img src="./images/joshua-koblin-eqW1MPinEV4-unsplash.jpg" alt="">
+                </div>
+
+                <div class="para1">
+                    <h4>Ocons' Joy, Leclerc's furry and frustrated drivers aplenty in the
+                        best team radio from Hungary</h4>
+                    <p>Ocon's joy and jubilation were clear as day as he picked up a maiden F1
+                        victory, while the emotions at the start the emotio... more</p>
+                </div>
+                <div>
+                    <div class="likes">
+                        <div class="like-button3"  id="likeButton"  >
+                            <i id="toggleIcon" class="fas fa-heart"></i>
+                        </div>
+                        <div id="likeCount" class="like-count">0</div>
+                        <p class="views"> 1.5 m views</p>
+                        <p><i class="fa-solid fa-circle"></i> 1 day ago</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="item2">
+                <div class="box">
+                    <div class="box1">
+                        <div class="image">
+                            <img src="./images/linkedin-sales-solutions-pAtA8xe_iVM-unsplash.jpg" alt="">
+                        </div>
+                        <div class="waddenRace">
+                            <div>
+                                <h2>Wadden Wadden</h2>
+                            </div>
+                            <div class="RaceEvent">
+                                <div>Race</div>
+                                <div>Event</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box2">
+
+                        <div class="savebox2">
+                            <button> <i class="fa-solid fa-plus"></i> Save</button>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="box2-image">
+                    <img src="./images/joshua-koblin-eqW1MPinEV4-unsplash.jpg" alt="">
+                </div>
+
+                <div class="para1">
+                    <h4>Ocons' Joy, Leclerc's furry and frustrated drivers aplenty in the
+                        best team radio from Hungary</h4>
+                    <p>Ocon's joy and jubilation were clear as day as he picked up a maiden F1
+                        victory, while the emotions at the start the emotio... more</p>
+                </div>
+                <div>
+                    <div class="likes">
+                        <div class="like-button4"  id="likeButton"  >
+                            <i id="toggleIcon" class="fas fa-heart"></i>
+                        </div>
+                        <div id="likeCount" class="like-count">0</div>
+                        <p class="views"> 1.5 m views</p>
+                        <p><i class="fa-solid fa-circle"></i> 1 day ago</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+
+
+        <div class="lifestory" id="lifestoryContent">
+            <div class=" mainbox">
+                <div class="leftSide">
+                    <div class="card">
+                        <div class="card1">
+                            <div class="imageCard1">
+                                <img src="./images/linkedin-sales-solutions-pAtA8xe_iVM-unsplash.jpg" alt="">
+                            </div>
+                            <div class="Card1H">
+                                <div class="waddenH">
+                                    <h2>Wadden Wadden</h2>
+                                </div>
+                                <div class="Card1RaceEvent">
+                                    <div>Race</div>
+                                    <div>Event</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cars1Follow">
+
+                            <div class="follow">
+                                <button> <i class="fa-solid fa-plus"></i> follow</button>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="image-left">
+                        <img src="./images/joshua-koblin-eqW1MPinEV4-unsplash.jpg" alt="">
+                    </div>
+                    <div class="insta_Icons">
+                        <div>
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-comment"></i>
+                            <i class="fa-regular fa-share-from-square"></i>
+                        </div>
+                        <div>
+                            <i class="fa-regular fa-bookmark"></i>
+                        </div>
+                    </div>
+
+                    <div class="instaLikes">
+                        <div>
+                            <p>3.2k likes <span>1 day ago</span></p>
+
+                        </div>
+                    </div>
+                    <div class="para2">
+                        <p>Ocon's joy and jubilation were clear as day as he picked up a maiden F1
+                            victory, while the emotions at the start the emotio... more</p>
+                    </div>
+
+                </div>
+
+
+
+                <div class="rightSide">
+                    <div>
+                        <div class="suggest">
+                            <div>
+                                <p>Suggestion For You</p>
+                            </div>
+                            <div>
+                                <p>See All</p>
+                            </div>
+                        </div>
+
+                        <div class="text">
+                            <div class="inf-Img">
+                                <div class="image2">
+                                    <img src="./images/evgeny-tchebotarev-aiwuLjLPFnU-unsplash.jpg" alt="">
+                                </div>
+                                <div class="info">
+                                    <h4>Arlene McCoy</h4>
+                                    <p>followed by your</p>
+                                    <h4>Friends</h4>
+                                </div>
+                            </div>
+                            <div class="follow">
+                                <button> <i class="fa-solid fa-plus"></i> follow</button>
+                            </div>
+                        </div>
+                        <div class="text">
+                            <div class="inf-Img">
+                                <div class="image2">
+                                    <img src="./images/evgeny-tchebotarev-aiwuLjLPFnU-unsplash.jpg" alt="">
+                                </div>
+                                <div class="info">
+                                    <h4>Arlene McCoy</h4>
+                                    <p>followed by your</p>
+                                    <h4>Friends</h4>
+                                </div>
+                            </div>
+                            <div class="follow">
+                                <button> <i class="fa-solid fa-plus"></i> follow</button>
+                            </div>
+                        </div>
+                        <div class="text">
+                            <div class="inf-Img">
+                                <div class="image2">
+                                    <img src="./images/evgeny-tchebotarev-aiwuLjLPFnU-unsplash.jpg" alt="">
+                                </div>
+                                <div class="info">
+                                    <h4>Arlene McCoy</h4>
+                                    <p>followed by your</p>
+                                    <h4>Friends</h4>
+                                </div>
+                            </div>
+                            <div class="follow">
+                                <button> <i class="fa-solid fa-plus"></i> follow</button>
+                            </div>
+                        </div>
+                        <div class="text">
+                            <div class="inf-Img">
+                                <div class="image2">
+                                    <img src="./images/evgeny-tchebotarev-aiwuLjLPFnU-unsplash.jpg" alt="">
+                                </div>
+                                <div class="info">
+                                    <h4>Arlene McCoy</h4>
+                                    <p>followed by your</p>
+                                    <h4>Friends</h4>
+                                </div>
+                            </div>
+                            <div class="follow">
+                                <button> <i class="fa-solid fa-plus"></i> follow</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div>
+
+                        <div class="followingA">
+                            <div>
+                                <p>Following Account</p>
+                            </div>
+                            <div>
+                                <p>See All</p>
+                            </div>
+                        </div>
+                        <div class="inf-Img">
+                            <div class="image2">
+                                <img src="./images/evgeny-tchebotarev-aiwuLjLPFnU-unsplash.jpg" alt="">
+                            </div>
+                            <div class="info">
+                                <h4>Arlene McCoy</h4>
+                                <p>followed by your</p>
+                                <h4>Friends</h4>
+                            </div>
+                        </div>
+                        <div class="inf-Img">
+                            <div class="image2">
+                                <img src="./images/evgeny-tchebotarev-aiwuLjLPFnU-unsplash.jpg" alt="">
+                            </div>
+                            <div class="info">
+                                <h4>Arlene McCoy</h4>
+                                <p>followed by your</p>
+                                <h4>Friends</h4>
+                            </div>
+                        </div>
+                        <div class="inf-Img">
+                            <div class="image2">
+                                <img src="./images/evgeny-tchebotarev-aiwuLjLPFnU-unsplash.jpg" alt="">
+                            </div>
+                            <div class="info">
+                                <h4>Arlene McCoy</h4>
+                                <p>followed by your</p>
+                                <h4>Friends</h4>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <div class="clickOnCreate" id="createContent">
+            <div>
+                <div class="cancel" ><button id="cancel">Cancel</button></div>
+                <h2 class="heading">What do you want to create?</h2>
+
+                <div class="mainbox1">
+                    <div class="feedimage">
+                        <div>
+                            <button id="insideNewfeed">Newsfeed</button>
+                        </div>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="storyimage">
+                        <div>
+                            <button id="insideLifestory">Lifestory</button>
+                        </div>
+                        <div>
+                            <p>Create your lifestory and engage with your friends</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="inside_newfeed" id="inside_newfeed">
+            <div class="cancel-Publish">
+                <div>
+                    <button id="cancel_Newfeed">Cancel</button>
+                </div>
+                <div>
+                    <button>Publish</button>
+                </div>
+            </div>
+
+            <div>
+                <h3>Choose Your Category</h3>
+            </div>
+            <div class="downText">
+                <!-- <div class="down">
+                </div> -->
+                <div>
+                    <input type="text" placeholder="Race,Event">
+                    <input type="text" placeholder="Title">
+                </div>
+
+
+            </div>
+            <div class="gallery">
+                <div class="galleryIcon">
+                    <i class="fa-solid fa-image"></i>
+
+                </div>
+                <p>Drag and drop an image, or <span> browse</span></p>
+                <p>1600x1200 or higher is reccomended.Max 10MB each ( png,jpg,jpeg)</p>
+            </div>
+            <div class="write">
+                <input type="text" placeholder="Write what will be in the feed.... ">
+            </div>
+            <div>
+                <h2>Tags(Maximum 5)</h2>
+            </div>
+            <div  class="tags">
+                <input type="text" placeholder="Race,Event">
+            </div>
+            <div> 
+                <h4>Suggested tags : Cars,Trending,f2</h4>
+            </div>
+        </div>
+
+
+        <div class=" inside-lifestory" id="inside-lifestory" >
+            <div class="cancel-Publish">
+                <div>
+                    <button id="cancel_lifestory">Cancel</button>
+                </div>
+                <div>
+                    <button>Publish</button>
+                </div>
+            </div>
+
+            <div>
+                <h3>Choose Your Category</h3>
+            </div>
+            <input type="text" placeholder="Race,Event">
+            <div class="parts">
+                <div class="gallery">
+                    <div class="galleryIcon">
+                        <i class="fa-solid fa-image"></i>
+    
+                    </div>
+                    <p>Drag and drop an image, or <span> browse</span></p>
+                    <p>1600x1200 or higher is reccomended.Max 10MB each ( png,jpg,jpeg)</p>
+                </div>
+                <div>
+                    <textarea name="" id="" cols="70" rows="30" placeholder="Write story"> </textarea>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <footer>
+            <div>
+                <h2>REVVD</h2>
+            <h5>@2023 REVVD. All rights Reserved.</h5>
+
+            </div>
+            <div class="social">
+                <div class="icons">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+                <div class="icon1"><i class="fa-solid fa-angle-up"></i></div>
+            </div>
+        </footer>
+
+    </section>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>

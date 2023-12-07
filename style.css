@@ -1,0 +1,882 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.activeButton{
+  background-color: red!important;
+  color: white !important;
+}
+.regular-icon {
+  color:grey; /* Example color for 'fa-regular' */
+}
+
+.solid-icon {
+  color:red; /* Example color for 'fa-solid' */
+}
+.navbar {
+  background-color: black;
+  /* position: fixed; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 40px;
+  height: 60px;
+  /* width: 100%; */
+}
+
+.logo {
+  font-style: italic;
+  font-size: 20px;
+  color: white;
+}
+
+.input-container {
+  width: 40%;
+  position: relative;
+}
+
+.Search {
+  position: absolute;
+  top: 8px;
+}
+
+.Search i {
+
+  color: #888;
+  font-size: 13px;
+  padding: 0px 10px 0px 10px;
+
+}
+
+.input-container input {
+  padding: 8px 16px 8px 30px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  width: 100%
+}
+
+.warren {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.warren i,
+.warren p {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.warren i {
+  color: red;
+}
+
+.warren .fa-angle-down {
+  color: white;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 40px 50px 40px 50px;
+
+}
+
+.buttons button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+  border: 1px solid red;
+  outline: none;
+  background-color: white;
+}
+
+/* Hover effect */
+.buttons button:hover {
+  background-color: red;
+  color: white;
+}
+
+.create i {
+  padding-right: 5px;
+}
+
+
+
+/* List */
+.lists {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+.lists div {
+  text-align: center;
+}
+
+.lists ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.lists li {
+  /* color: white; */
+  padding: 10px 25px;
+  border-radius: 30px;
+  border: 1px solid red;
+  list-style: none;
+  margin-left: 15px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.lists li:hover {
+  background-color: red;
+  color: white;
+}
+
+/* .item1 */
+.item1 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 40px;
+}
+
+.item1 img {
+  width: 50%;
+  height: 30vh;
+}
+
+.zoom-in-effect {
+  transition: transform 0.1s ease-in;
+  /* Adds a smooth transition effect */
+}
+
+.zoom-in-effect:hover {
+  transform: scale(1.1);
+  /* Adjust the scale factor as needed */
+}
+
+.para {
+  width: 50%;
+  margin: auto;
+}
+
+.para h2 {
+  padding-top: 20px 0px 20px 0px;
+}
+
+/* Grid */
+.grid-container {
+  display: grid;
+  width: 80%;
+  margin: auto;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 200px 200px;
+  grid-gap: 15px;
+  /* background-color: rgb(228, 228, 192); */
+  padding-bottom: 40px;
+  justify-content: center;
+
+}
+
+.items {
+  background-position: center;
+  background-size: cover;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.grid-item1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-image: url("./images/joshua-koblin-eqW1MPinEV4-unsplash.jpg");
+
+
+}
+
+.grid-item2 {
+  background-image: url("./images/marc-kleen-h8UQV31X5AI-unsplash.jpg");
+}
+
+.grid-item3 {
+  background-image: url("./images/evgeny-tchebotarev-aiwuLjLPFnU-unsplash.jpg");
+}
+
+/* item2 */
+.item2 {
+  /* background: rgb(224, 224, 61); */
+  padding: 0px 50px;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  margin-bottom: 40px;
+}
+
+.item2 .box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box1 {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: rebeccapurple; */
+  padding: 10px 0px;
+}
+
+.image {
+  width: 70px;
+  height: 70px;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  border-radius: 50%;
+}
+
+.waddenRace {
+  padding-left: 20px;
+
+}
+
+.RaceEvent {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 10px;
+}
+
+.RaceEvent>div {
+  display: inline-block;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+  border: 1px solid red;
+  outline: none;
+  background-color: white;
+}
+
+/* Hover effect */
+.RaceEvent>div:hover {
+  background-color: red;
+  color: white;
+}
+
+
+.box2 {
+  /* background-color: antiquewhite; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.box2 button {
+  margin-right: 20px;
+}
+
+.savebox2 button {
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+  border: 1px solid red;
+  outline: none;
+  background-color: white;
+}
+
+.savebox2 button:hover {
+  background-color: red;
+  color: white;
+}
+
+.box2-image img {
+  width: 100%;
+}
+
+.para1 h4 {
+  padding: 10px 0px 10px 0px;
+}
+
+.para1 p {
+  padding-bottom: 20px;
+}
+
+.likes {
+  display: flex;
+  padding: 0px 15px 10px;
+  font-size: 15px;
+}
+
+.like {
+  font-size: 20px;
+}
+
+.views {
+  padding: 0px 10px 0px 10px;
+}
+
+
+
+
+.fa-circle {
+  font-size: 8px;
+  color: gray;
+}
+
+/* footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background: black;
+  color: white;
+  align-items: center;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 250px;
+}
+
+.icons i {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  border: 1px solid red;
+  border-radius: 50%;
+  color: black;
+  box-shadow: 0px 4px 8px rgba(143, 8, 143, 0.3);
+  transition: .5s ease;
+  background-color: white;
+
+}
+
+.icons i:hover {
+  background-color: red;
+  color: white;
+}
+
+.icon1 i {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  border: 1px solid red;
+  border-radius: 20%;
+  color: black;
+  box-shadow: 0px 4px 8px rgba(143, 8, 143, 0.3);
+  transition: .5s ease;
+  background-color: white;
+
+}
+
+.icon1 i:hover {
+  background-color: red;
+  color: white;
+}
+
+
+/* mainBox */
+.mainbox {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding: 40px 40px;
+}
+
+.leftSide {
+  padding: 40px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.rightSide {
+  padding: 40px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+
+}
+
+.mainbox .card {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 40px;
+}
+
+.imageCard1 {
+  width: 70px;
+  height: 70px;
+}
+
+.imageCard1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  border-radius: 50%;
+}
+
+.image-left img {
+  width: 100%;
+
+}
+
+.Card1H {
+  padding-left: 25px;
+}
+
+.Card1H .waddenH {
+  padding-bottom: 10px;
+}
+
+.Card1RaceEvent {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.Card1RaceEvent>div {
+  display: inline-block;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+  border: 1px solid red;
+  outline: none;
+  background-color: white;
+}
+
+/* Hover effect */
+.Card1RaceEvent>div:hover {
+  background-color: red;
+  color: white;
+}
+
+.cars1Follow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.cars1Follow button {
+  margin-right: 20px;
+}
+
+.follow button {
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+  border: 1px solid red;
+  outline: none;
+  background-color: white;
+}
+
+.follow button:hover {
+  background-color: red;
+  color: white;
+}
+
+.card1 {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: pink; */
+}
+
+.cars1Follow {
+  /* background-color: tan; */
+  display: flex;
+}
+
+.insta_Icons {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 40px;
+}
+
+.insta_Icons i {
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.instaLikes {
+  padding: 10px 0px 20px 40px;
+  font-weight: 900;
+  color: rgb(163, 156, 156);
+
+}
+
+.instaLikes span {
+  padding-left: 20px;
+}
+
+.para2 {
+  padding: 0px 0px 30px 40px;
+  font-size: 17px;
+}
+
+
+/* RightSide */
+.suggest {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.suggest>div {
+  padding: 0px 0px 20px;
+  font-weight: 600;
+}
+
+.inf-Img {
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.inf-Img .info {
+  padding-left: 20px;
+}
+
+.text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image2 {
+  width: 70px;
+  height: 70px;
+}
+
+.image2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  border-radius: 50%;
+}
+
+/* following Account */
+.followingA {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.followingA>div {
+  padding: 0px 0px 20px;
+  font-weight: 600;
+}
+
+/* create */
+.clickOnCreate {
+  padding: 0px 50px;
+}
+
+.clickOnCreate .heading {
+  text-align: center;
+  font-size: 40px;
+  padding: 20px 0px 50px 0px;
+}
+
+.cancel button,
+.feedimage button,
+.storyimage button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+  border: 1px solid red;
+  outline: none;
+  background-color: white;
+}
+
+/* Hover effect */
+.cancel button:hover,
+.feedimage button:hover,
+.storyimage button:hover {
+  background-color: red;
+  color: white;
+}
+
+.mainbox1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding-bottom: 40px;
+  color: white;
+  text-align: center;
+
+}
+
+.feedimage {
+  background-image: url("./images/joshua-koblin-eqW1MPinEV4-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 45vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.storyimage {
+  background-image: url("./images/matheus-ferrero-W7b3eDUb_2I-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 45vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* inside_newfeed */
+.inside_newfeed {
+  padding: 30px 40px;
+}
+
+.cancel-Publish {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.cancel-Publish button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+  border: 1px solid red;
+  outline: none;
+  background-color: white;
+}
+
+.cancel-Publish button:hover {
+  background-color: red;
+  color: white;
+}
+
+.inside_newfeed h3 {
+  font-size: 30px;
+  padding: 30px 0px;
+}
+
+
+.downText,
+.tags {
+  width: 50%;
+
+}
+
+.downText input,
+.tags input {
+  padding: 10px 16px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background-color: white;
+  border: 1px solid black;
+
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 100px 50px;
+  border: 5px dashed grey;
+  font-size: 19px;
+}
+
+.gallery p {
+  padding-bottom: 5px;
+  color: grey;
+}
+
+.gallery span {
+  color: red;
+}
+
+.galleryIcon {
+
+  font-size: 100px;
+
+  color: red;
+}
+
+.write {
+  width: 50%;
+  margin: 20px 0px 20px 0px;
+}
+
+.write input {
+  padding: 10px 16px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.inside-lifestory {
+  padding: 20px 40px;
+}
+
+.inside-lifestory h3 {
+  font-size: 30px;
+  padding: 20px 0px;
+}
+
+.inside-lifestory input {
+  padding: 8px 16px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin-bottom: 30px;
+}
+
+.parts {
+  display: flex;
+  width: 80%;
+}
+
+.parts textarea {
+  padding: 30px 20px;
+}
+
+
+@media screen and (max-width:1000px) {
+  .item2 {
+     width: 90% !important;
+  }
+  .item1>div .zoom-in-effect img{
+    width: 70%;
+  }
+}
+@media screen and (max-width:760px){
+  .grid-container{
+    grid-template-columns: 1fr;
+  }
+  .grid-item3{
+    height: 200px;
+  }
+  .grid-item1{
+    grid-column-end: 1;
+  }
+  .icons i,.icon1 i{
+    width: 40px;
+    height: 40px;
+  }
+  footer h2{
+    padding-right: 13px;
+  }
+  .input-container{
+    display: none;
+  }
+  .box2{
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    padding-top: 10px;
+  }
+  .savebox2 button{
+    white-space: nowrap;
+  }
+}
+@media screen and (max-width:688px){
+  footer{
+    padding: 20px 10px;
+  }
+footer h2{
+  padding-bottom: 3px;
+}
+.buttons button{
+  white-space: nowrap;
+}
+.waddenRace {
+  padding-left: 5px;
+}
+.item2{
+  padding: 0px 5px;
+  width: 95% !important;
+  padding: 0px 0px;
+}
+}
+@media screen and (max-width:870px) {
+  .mainbox{
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .rightSide{
+    flex-direction: row;
+    overflow: scroll;
+  }
+  .rightSide>div{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+  .suggest{
+    display: none !important;
+  }
+  .text{
+    gap: 30px;
+  }
+  .follow button{
+    white-space:nowrap;
+  }
+  
+}
